@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contact-title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #000000;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.contact-header-text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #717171;
+}
+
+.contact-form-container {
+    width: 95%;
+    margin: auto;
+}
+
+.contact-form-img {
+    width: 85%;
+    /* margin: auto; */
+}
+
+.contact .form-control {
+    border: none !important;
+    outline: none !important;
+    border-bottom: 1px solid #8D8D8D !important;
+}
+
+.contact-form-img {
+    width: 85%;
+}
+
+.contact-button {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #EC6F57;
+    border-radius: 20px;
+    border: none;
+    padding: 7px 15px;
+}
+
+.contact-button:hover {
+    background: #ff3838;
+}
+
+.contact-location {
+    width: 95%;
+    margin: auto;
+}
+
+.contact-information {
+    background: #EC6F57;
+}
+
+.contact-information-inner {
+    width: 85%;
+    margin: auto;
+}
+
+/* label {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    color: #8D8D8D;
+} */
+
+.contact-info-title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 34px;
+    color: #FFFFFF;
+}
+
+.contact-info-text {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #F3F3F3;
+}
+
+.contact-text {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+
+@media screen and (max-width: 480px) {
+    .contact-form-container {
+        width: 100%;
+        margin: auto;
+    }
+
+    .contact-form-img {
+        width: 100%;
+    }
+
+    .contact-information-inner {
+        width: 100%;
+        margin: auto;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .contact-form-container {
+        width: 100%;
+        margin: auto;
+    }
+
+    .contact-form-img {
+        width: 100%;
+    }
+
+    .contact-information-inner {
+        width: 100%;
+        margin: auto;
+    }
+}

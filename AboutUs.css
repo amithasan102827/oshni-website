@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ABOUT-US-BANNER */
+.about-us-title {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: #EC6F57;
+}
+
+.about-us-details-container {
+    width: 75%;
+}
+
+.about-us-image img {
+    filter: drop-shadow(2px 4px 4px #585858);
+    width: 90%;
+    margin: auto;
+}
+
+.about-us-details-text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+}
+
+
+/* OUR-MEMBERS */
+.our-member-title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #EC6F57;
+    margin-bottom: 70px;
+}
+
+.members-name {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+    text-transform: uppercase;
+    color: #EC6F57;
+    margin-bottom: 20px;
+}
+
+.members-degignation {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.member-details-text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+
+
+
+.about-btn {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border: none;
+    padding: 9px 15px;
+    background: #EC6F57;
+    border-radius: 20px;
+}
+
+.about-btn:hover {
+    background: #ff3838;
+}
+
+
+/* OUR MEMBERS */
+
+.about-us-container {
+    width: 45%;
+    margin-top: 10px;
+}
+
+
+.about-us-wrapper-image img {
+    filter: drop-shadow(2px 4px 8px #585858);
+    width: 291px;
+    height: auto;
+    margin: auto;
+}
+
+.about-us-wrapper .col:nth-child(even) .col-md-6:nth-child(even) {
+    order: 1;
+}
+
+.about-us-wrapper .col:nth-child(odd) .col-md-6:nth-child(odd) {
+    order: 2;
+}
+
+@media screen and (max-width: 480px) {
+
+    .about-us-container {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .about-us-wrapper .col-md-6:nth-child(even) {
+        order: 1;
+    }
+
+    .about-us-wrapper .col-md-6:nth-child(odd) {
+        order: 2;
+    }
+
+    .about-us-details-container {
+        width: 100%;
+    }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .about-us-container {
+        width: 85%;
+        margin-top: 50px;
+    }
+
+    .about-us-details-container {
+        width: 100%;
+    }
+}

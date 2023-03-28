@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- bootstrap-css-cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+    <!-- bootstrap-icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+
+    <!-- google-font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600;700&family=Poppins:wght@400;500;600&family=Work+Sans:wght@100;200;300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- slick-slider -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"
+        integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css"
+        integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+
+
+
+
+    <link rel="stylesheet" href="Home.css">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="ContactUs.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav class=" navbar bg-lignt sticky-top navbar-expand-md">
+        <div class="container">
+            <a class="navbar-brand" href="Home.html"><img class="w-100 img-fluid" src="./images/logo 1.png" alt=""
+                    srcset=""></a>
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                <i class="fa-sharp fa-solid fa-bars-staggered"></i>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+
+                    <a class="navbar-brand" href="#"><img class="w-100 img-fluid" src="./images/logo 1.png" alt=""
+                            srcset=""></a>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+
+                <div class="offcanvas-body ">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 ">
+
+                        <li class="nav-item dropdown position-static ">
+                            <a style="cursor: pointer;" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Service
+                            </a>
+                            <ul class="dropdown-menu py-5 rounded-0 ">
+                                <div
+                                    class="row row-cols-1 row-cols-lg-3 row-cols-sm-2 row-cols-md-2 mx-auto g-5 dropdown-row">
+
+                                    <div class="col">
+                                        <a class="text-decoration-none" href="">
+                                            <div
+                                                class="card navbar-card rounded-4 border-0 d-flex justify-content-center align-items-center">
+                                                <div class="card-body  navbar-card-body d-flex justify-content-center align-items-center " ">
+                                                    <img class=" ps-3" src="./images/building-add.svg" alt=""
+                                                    srcset="">
+                                                    <div class="ms-3 text-start ">
+                                                        <div class="mt-md-3">
+                                                            <h6 class="p-0 m-0 mt-2">Smart Wholesaler</h6>
+                                                            <p class="pt-1">
+                                                                Custom Software Development.Frontend
+                                                                Development.Ecommerce
+                                                                Development.
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col">
+                                        <a class="text-decoration-none" href="">
+                                            <div
+                                                class="card navbar-card rounded-4 border-0 d-flex justify-content-center align-items-center">
+                                                <div class="card-body  navbar-card-body d-flex justify-content-center align-items-center " ">
+                                                    <img class=" ps-3" src="./images/building-add.svg" alt=""
+                                                    srcset="">
+                                                    <div class="ms-3 text-start ">
+                                                        <div class="mt-md-3">
+                                                            <h6 class="p-0 m-0 mt-2">Smart Wholesaler</h6>
+                                                            <p class="pt-1">
+                                                                Custom Software Development.Frontend
+                                                                Development.Ecommerce
+                                                                Development.
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col">
+                                        <a class="text-decoration-none" href="">
+                                            <div
+                                                class="card navbar-card rounded-4 border-0 d-flex justify-content-center align-items-center">
+                                                <div
+                                                    class="card-body  navbar-card-body d-flex justify-content-center align-items-center ">
+                                                    <img class=" ps-3" src="./images/building-add.svg" alt="" srcset="">
+                                                    <div class="ms-3 text-start ">
+                                                        <div class="mt-md-3">
+                                                            <h6 class="p-0 m-0 mt-2">Smart Wholesaler</h6>
+                                                            <p class="pt-1">
+                                                                Custom Software Development.Frontend
+                                                                Development.Ecommerce
+                                                                Development.
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col">
+                                        <a class="text-decoration-none" href="">
+                                            <div
+                                                class="card navbar-card rounded-4 border-0 d-flex justify-content-center align-items-center">
+                                                <div class="card-body  navbar-card-body d-flex justify-content-center align-items-center " ">
+                                                    <img class=" ps-3" src="./images/building-add.svg" alt=""
+                                                    srcset="">
+                                                    <div class="ms-3 text-start ">
+                                                        <div class="mt-md-3">
+                                                            <h6 class="p-0 m-0 mt-2">Smart Wholesaler</h6>
+                                                            <p class="pt-1">
+                                                                Custom Software Development.Frontend
+                                                                Development.Ecommerce
+                                                                Development.
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col">
+                                        <a class="text-decoration-none" href="">
+                                            <div
+                                                class="card navbar-card rounded-4 border-0 d-flex justify-content-center align-items-center">
+                                                <div class="card-body  navbar-card-body d-flex justify-content-center align-items-center " ">
+                                                    <img class=" ps-3" src="./images/building-add.svg" alt=""
+                                                    srcset="">
+                                                    <div class="ms-3 text-start ">
+                                                        <div class="mt-md-3">
+                                                            <h6 class="p-0 m-0 mt-2">Smart Wholesaler</h6>
+                                                            <p class="pt-1">
+                                                                Custom Software Development.Frontend
+                                                                Development.Ecommerce
+                                                                Development.
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+
+
+                            </ul>
+                        </li>
+
+
+                        <li class="nav-item dropdown position-static">
+                            <a style="cursor: pointer;" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Products
+                            </a>
+                            <ul class="dropdown-menu py-5 rounded-0">
+                                <div
+                                    class="row row-cols-1 row-cols-lg-3 row-cols-sm-2 row-cols-md-2 mx-auto g-5 dropdown-row">
+
+                                    <div class="col">
+                                        <a class="text-decoration-none" href="">
+                                            <div
+                                                class="card navbar-card rounded-4 border-0 d-flex justify-content-center align-items-center">
+                                                <div class="card-body  navbar-card-body d-flex justify-content-center align-items-center " ">
+                                                    <img class=" ps-3" src="./images/building-add.svg" alt=""
+                                                    srcset="">
+                                                    <div class="ms-3 text-start ">
+                                                        <div class="mt-md-3">
+                                                            <h6 class="p-0 m-0 mt-2">Smart Wholesaler</h6>
+                                                            <p class="pt-1">
+                                                                Custom Software Development.Frontend
+                                                                Development.Ecommerce
+                                                                Development.
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col">
+                                        <a class="text-decoration-none" href="">
+                                            <div
+                                                class="card navbar-card rounded-4 border-0 d-flex justify-content-center align-items-center">
+                                                <div class="card-body  navbar-card-body d-flex justify-content-center align-items-center " ">
+                                                    <img class=" ps-3" src="./images/building-add.svg" alt=""
+                                                    srcset="">
+                                                    <div class="ms-3 text-start ">
+                                                        <div class="mt-md-3">
+                                                            <h6 class="p-0 m-0 mt-2">Smart Wholesaler</h6>
+                                                            <p class="pt-1">
+                                                                Custom Software Development.Frontend
+                                                                Development.Ecommerce
+                                                                Development.
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col">
+                                        <a class="text-decoration-none" href="">
+                                            <div
+                                                class="card navbar-card rounded-4 border-0 d-flex justify-content-center align-items-center">
+                                                <div class="card-body  navbar-card-body d-flex justify-content-center align-items-center " ">
+                                                    <img class=" ps-3" src="./images/building-add.svg" alt=""
+                                                    srcset="">
+                                                    <div class="ms-3 text-start ">
+                                                        <div class="mt-md-3">
+                                                            <h6 class="p-0 m-0 mt-2">Smart Wholesaler</h6>
+                                                            <p class="pt-1">
+                                                                Custom Software Development.Frontend
+                                                                Development.Ecommerce
+                                                                Development.
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col">
+                                        <a class="text-decoration-none" href="">
+                                            <div
+                                                class="card navbar-card rounded-4 border-0 d-flex justify-content-center align-items-center">
+                                                <div class="card-body  navbar-card-body d-flex justify-content-center align-items-center " ">
+                                                    <img class=" ps-3" src="./images/building-add.svg" alt=""
+                                                    srcset="">
+                                                    <div class="ms-3 text-start ">
+                                                        <div class="mt-md-3">
+                                                            <h6 class="p-0 m-0 mt-2">Smart Wholesaler</h6>
+                                                            <p class="pt-1">
+                                                                Custom Software Development.Frontend
+                                                                Development.Ecommerce
+                                                                Development.
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col">
+                                        <a class="text-decoration-none" href="">
+                                            <div
+                                                class="card navbar-card rounded-4 border-0 d-flex justify-content-center align-items-center">
+                                                <div class="card-body  navbar-card-body d-flex justify-content-center align-items-center " ">
+                                                    <img class=" ps-3" src="./images/building-add.svg" alt=""
+                                                    srcset="">
+                                                    <div class="ms-3 text-start ">
+                                                        <div class="mt-md-3">
+                                                            <h6 class="p-0 m-0 mt-2">Smart Wholesaler</h6>
+                                                            <p class="pt-1">
+                                                                Custom Software Development.Frontend
+                                                                Development.Ecommerce
+                                                                Development.
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+
+                            </ul>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link " href="ProductDetails.html">
+                                Team
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="ServiceDetails.html">
+                                Contact
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <!-- CONTACT-TITLE -->
+    <section>
+        <div class="container">
+            <h1 class="contact-title">Contact Us</h1>
+            <h1 class="contact-header-text">Any question or remarks? Just write us a message!</h1>
+        </div>
+    </section>
+
+    <!-- CONTACT-FORM -->
+    <section class="my-5 py-md-5">
+        <div class="container">
+            <div class="row justify-content-center align-items-center contact-form-container">
+                <div class="col-md-6 order-md-0 order-1">
+                    <form class="row g-4">
+                        <div class="col-md-6 contact">
+                            <label for="inputEmail4" class="form-label">First Name</label>
+                            <input type="text" class="form-control rounded-0 shadow-none px-0" id="inputEmail4">
+                        </div>
+                        <div class="col-md-6 contact">
+                            <label for="inputPassword4" class="form-label">Last Name</label>
+                            <input type="text" class="form-control rounded-0 shadow-none px-0" id="inputPassword4">
+                        </div>
+                        <div class="col-md-6 contact">
+                            <label for="inputEmail4" class="form-label">Email</label>
+                            <input type="text" class="form-control rounded-0 shadow-none px-0" id="inputEmail4">
+                        </div>
+                        <div class="col-md-6 contact">
+                            <label for="inputPassword4" class="form-label">Phone Number</label>
+                            <input type="number" class="form-control rounded-0 shadow-none px-0" id="inputPassword4">
+                        </div>
+
+                        <div class="col-md-12">
+                            <fieldset class="row mb-3 g-3">
+                                <legend class="col-form-label col-12 ">Select Subject?</legend>
+                                <div class="col-12 d-flex justify-content-start  align-items-center flex-wrap">
+                                    <div class="form-check me-3">
+                                        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1"
+                                            value="option1">
+                                        <label class="form-check-label" for="gridRadios1">
+                                            First radio
+                                        </label>
+                                    </div>
+                                    <div class="form-check me-3">
+                                        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2"
+                                            value="option2">
+                                        <label class="form-check-label" for="gridRadios2">
+                                            Second radio
+                                        </label>
+                                    </div>
+                                    <div class="form-check me-3">
+                                        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2"
+                                            value="option2">
+                                        <label class="form-check-label" for="gridRadios2">
+                                            Second radio
+                                        </label>
+                                    </div>
+                                    <div class="form-check me-3">
+                                        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2"
+                                            value="option2">
+                                        <label class="form-check-label" for="gridRadios2">
+                                            Second radio
+                                        </label>
+                                    </div>
+
+                                </div>
+                            </fieldset>
+                        </div>
+
+                        <div class="col-12 contact ">
+                            <label for="inputAddress" class="form-label">Message</label>
+                            <input type="text" class="form-control rounded-0 shadow-none  px-0" id="inputAddress"
+                                placeholder="Write your message..">
+                        </div>
+
+
+
+                        <div class="col-12 ">
+                            <button type="submit" class=" contact-button">SEND MESSAGE</button>
+                        </div>
+                    </form>
+                </div>
+
+                <div
+                    class="col-md-6 d-flex justify-content-md-end justify-content-center align-items-center order-md-1 order-0">
+                    <img class="img-fluid contact-form-img" src="/images/contact-3.gif" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="py-5">
+        <div class=" container">
+            <div class="row contact-location">
+                <div class="col-md-6 col-12 contact-information">
+                    <div class="contact-information-inner py-4">
+                        <h1 class="contact-info-title">Contact Information</h1>
+                        <p class="contact-info-text">Say something to start a live chat!</p>
+
+                        <div class="mt-5">
+                            <a class="text-decoration-none text-white d-block" href="">
+                                <i class="fa-solid fa-phone me-2 fa-lg"></i> <span class="contact-text">+1012 3456 789</span>
+                            </a>
+                            <a class="text-decoration-none text-white d-block my-5" href="">
+                                <i class="fa-solid fa-envelope me-2 fa-lg"></i> <span class="contact-text">monir@oshnisoftware.com</span>
+                            </a>
+                            <a class="text-decoration-none text-white d-block" href="">
+                                <i class="fa-solid fa-location-dot me-2 fa-lg"></i> <span class="contact-text">2/3/3, Tolarbag <br> Darus Salam,
+                                    Dhaka-1216,
+                                    Bangladesh</span>
+                            </a>
+                        </div>
+
+                        <div class="mt-5 pt-md-5 ms-md-5">
+                            <a href="" class="text-decoration-none text-white">
+                                <i class="fa-brands fa-square-facebook fa-xl me-2"></i>
+                            </a>
+                            <a href="" class="text-decoration-none text-white">
+                                <i class="fa-brands fa-twitter fa-xl me-2"></i>
+                            </a>
+                            <!-- <i class="fa-brands fa-github"></i> -->
+                            <a href="" class="text-decoration-none text-white">
+                                <i class="fa-brands fa-linkedin fa-xl me-2"></i>
+                            </a>
+                            <a href="" class="text-decoration-none text-white">
+                                <i class="fa-brands fa-square-pinterest fa-xl me-2"></i>
+                            </a>
+                            <a href="" class="text-decoration-none text-white">
+                                <i class="fa-brands fa-square-instagram fa-xl me-2"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-md-6 col-12  p-0">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3650.864160722279!2d90.34924637525847!3d23.787851078644824!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c1ed6f3f9af3%3A0xce2caac5f84e3c42!2sOshni%20Software!5e0!3m2!1sen!2sbd!4v1669286223399!5m2!1sen!2sbd"
+                        width="100%" height="550px" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- FOOTER -->
+    <section class="my-5 pb-md-5 border-top">
+        <div class="container pt-5">
+            <div class="row row-cols-1 row-cols-md-5 g-4 justify-content-center align-items-start">
+                <div class="col d-flex justify-content-md-center justify-content-start">
+                    <div>
+                        <h5 class="footer-title mb-4">Soft UI Design System</h5>
+                        <h6 class="footer-title-2">Social</h6>
+                        <div>
+                            <a href="" class="text-decoration-none text-dark">
+                                <i class="fa-brands fa-square-facebook fa-lg me-2"></i>
+                            </a>
+                            <a href="" class="text-decoration-none text-dark">
+                                <i class="fa-brands fa-twitter fa-lg me-2"></i>
+                            </a>
+                            <!-- <i class="fa-brands fa-github"></i> -->
+                            <a href="" class="text-decoration-none text-dark">
+                                <i class="fa-brands fa-linkedin fa-lg me-2"></i>
+                            </a>
+                            <a href="" class="text-decoration-none text-dark">
+                                <i class="fa-brands fa-square-pinterest fa-lg me-2"></i>
+                            </a>
+                            <a href="" class="text-decoration-none text-dark">
+                                <i class="fa-brands fa-square-instagram fa-lg me-2"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col d-flex justify-content-md-center justify-content-start">
+                    <div>
+                        <h5 class="footer-title">Company</h5>
+                        <div>
+                            <a class="text-decoration-none footer-item d-block" href="">Service</a>
+                            <a class="text-decoration-none footer-item d-block" href="">Product</a>
+                            <a class="text-decoration-none footer-item d-block" href="">Team</a>
+                            <a class="text-decoration-none footer-item d-block" href="">Contact</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col d-flex justify-content-md-center justify-content-start">
+                    <div>
+                        <h5 class="footer-title">Resources</h5>
+                        <div>
+                            <a class="text-decoration-none footer-item d-block" href="">PDF</a>
+                            <a class="text-decoration-none footer-item d-block" href="">Bits & Snippets</a>
+                            <a class="text-decoration-none footer-item d-block" href="">Affiliate Program</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col d-flex justify-content-md-center justify-content-start">
+                    <div>
+                        <h5 class="footer-title">Help & Support</h5>
+                        <div>
+                            <a class="text-decoration-none footer-item d-block" href="">Contact Us</a>
+                            <a class="text-decoration-none footer-item d-block" href="">Knowledge Center</a>
+                            <a class="text-decoration-none footer-item d-block" href="">Custom Development</a>
+                            <a class="text-decoration-none footer-item d-block" href="">Sponsorships</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col d-flex justify-content-md-center justify-content-start">
+                    <div>
+                        <h5 class="footer-title">Legal</h5>
+                        <div>
+                            <a class="text-decoration-none footer-item d-block" href="">Terms & Conditions</a>
+                            <a class="text-decoration-none footer-item d-block" href="">Privacy Policy</a>
+                            <a class="text-decoration-none footer-item d-block" href="">Licenses (EULA)</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+        integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+
+    <!-- bootstrap JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+
+
+    <!-- navbar-dropdown -->
+    <script>
+        $(document).ready(function () {
+            $(".dropdown").hover(
+                function () {
+                    $(this).find(".dropdown-menu").stop(true, true).delay(200).fadeIn();
+                },
+                function () {
+                    $(this)
+                        .find(".dropdown-menu")
+                        .stop(true, true)
+                        .delay(200)
+                        .fadeOut();
+                }
+            );
+
+            $(".dropdown-menu").hover(
+                function () {
+                    $(this).stop(true, true);
+                },
+                function () {
+                    $(this).stop(true, true).delay(200).fadeOut();
+                }
+            );
+        });
+    </script>
+
+
+
+
+</body>
+
+</html>

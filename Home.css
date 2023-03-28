@@ -1,0 +1,440 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600;700&family=Poppins:wght@400;500;600&family=Work+Sans:wght@100;200;300;400;500;600;700;800&display=swap");
+
+/* font-family: 'Inter', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Work Sans', sans-serif; */
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+
+/* HOME-SECTION */
+.carousel-item {
+  transition: transform 2s ease, opacity .5s ease-out !important;
+}
+
+.carousel-caption {
+  top: 70px;
+}
+
+.caption {
+  background: rgba(252, 103, 103, 0.6);
+  padding: 50px 100px;
+  font-family: 'Work Sans';
+  font-style: normal;
+}
+
+
+/* OUR-FEATURES start */
+.features-container {
+  /* max-width: 1024px; */
+  width: 100%;
+  background-color: #EC6F57;
+  margin: auto;
+  padding: 25px 5px;
+}
+
+.single-feature p {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  margin-top: 7px;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.single-feature i {
+  border: 2px solid #FFFFFF;
+  color: #FFFFFF;
+}
+
+.ourFeatureText {
+  max-width: 750px;
+}
+
+.ourFeatureText p {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 27px;
+  text-align: center;
+  color: #1E1C55;
+}
+
+/* OUR-FEATURES  END*/
+
+/* SERVICES START */
+.services-title {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 30px;
+  color: #03007E;
+  margin-bottom: 100px;
+}
+
+
+.service-features {
+  margin: 20px;
+}
+
+.service-img {
+  background: #EC6F57;
+  box-shadow: 0px 15px 50px rgba(252, 103, 103, 0.3);
+  border-radius: 10px;
+  padding: 25px 25px;
+}
+
+.service-features p {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  color: #000000;
+  text-align: center;
+}
+
+/* SERVICES-END */
+
+
+/* ABOUT-US-SECTION */
+.about-text {
+  max-width: 800px;
+  margin: auto;
+}
+
+.about-us-title {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 30px;
+  color: #03007E;
+}
+
+.about-text p {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #000000;
+  text-align: center;
+}
+
+/* ABOUT US SLIDER */
+.about-slider {
+  width: 75%;
+}
+
+.about-slider-name {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  color: #000000;
+}
+
+.about-slider-degignation {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #000000;
+}
+
+.about-slider-container {
+  max-width: 900px;
+}
+
+
+/* SWIPER-CSS-START */
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  /* text-align: center; */
+  /* font-size: 18px; */
+  /* background: #fff; */
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+/* SWIPER-CSS-END */
+
+.about-slide .swiper-slide img {
+  display: block;
+  max-width: 155px;
+  max-height: 155px;
+  object-fit: cover;
+}
+
+
+
+@media screen and (max-width: 480px) {
+  .about-slider {
+    width: 100%;
+  }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .about-slider {
+    width: 100%;
+  }
+}
+
+/* ABOUT US SLIDER END*/
+
+
+
+
+/* OUR-CLIENT START*/
+
+.our-client-slider-container {
+  max-width: 1024px;
+}
+
+.our-client-title {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: #03007E;
+  text-align: center;
+}
+
+.our-client .swiper-slide img {
+  display: block;
+  max-width: 190px;
+  max-height: 73px;
+  object-fit: cover;
+}
+
+/* OUR-CLIENT END*/
+
+
+
+/* OUR-CLIENT-SAY CLIENT-REVIEW START*/
+.client-say-title {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: #03007E;
+  text-align: center;
+}
+
+.client-review .swiper-slide img {
+  display: block;
+  max-width: 490px;
+  height: auto;
+  object-fit: cover;
+}
+
+
+.client-review {
+  /* display: block; */
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+}
+
+.client-review-card {
+  width: 55%;
+}
+
+.client-review-image img {
+  max-width: 309px;
+  max-height: 388px;
+}
+
+.client-review-card::before {
+  content: "\f10d";
+  position: absolute;
+  top: 0;
+  left: 16rem;
+  font-size: 3rem;
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  color: #3E66DF;
+}
+
+.client-review-card::after {
+  content: "\f10e";
+  position: absolute;
+  bottom: 3rem;
+  right: 37rem;
+  font-size: 3rem;
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  color: #3E66DF;
+}
+
+@media screen and (max-width: 480px) {
+  .client-review-card {
+    width: 100%;
+  }
+
+  .client-review {
+    display: block;
+    width: 100%;
+    max-height: auto;
+    object-fit: cover;
+  }
+
+  .client-review .swiper-slide img {
+    display: block;
+    max-width: 100%;
+    max-height: 190px;
+    object-fit: cover;
+  }
+
+  .client-review-card::before {
+    content: "\f10d";
+    position: absolute;
+    top: 0;
+    left: 2rem;
+    font-size: 3rem;
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    color: #3E66DF;
+  }
+
+  .client-review-card::after {
+    content: "\f10e";
+    position: absolute;
+    bottom: 0rem;
+    right: 1rem;
+    font-size: 3rem;
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    color: #3E66DF;
+  }
+}
+
+
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .client-review-card {
+    width: 100%;
+  }
+
+  .client-review .swiper-slide img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+
+  .client-review-card::before {
+    content: "\f10d";
+    position: absolute;
+    top: 0;
+    left: 0rem;
+    font-size: 3rem;
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    color: #3E66DF;
+  }
+
+  .client-review-card::after {
+    content: "\f10e";
+    position: absolute;
+    bottom: 3rem;
+    right: 18.5rem;
+    font-size: 3rem;
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    color: #3E66DF;
+  }
+}
+
+/* OUR-CLIENT-SAY CLIENT-REVIEW END*/
+
+
+
+/* Contact For Your Solution start */
+.contact-section {
+  padding: 100px 0;
+}
+
+.contact-title {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 0px;
+  letter-spacing: -0.03333em;
+  color: #03007E;
+}
+
+.contact-text {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #67748E;
+}
+
+.contact-field {
+  /* background: #FFFFFF; */
+  border: 1px solid #D2D6DA;
+  border-radius: 8px;
+  width: 65%;
+  max-height: 55px;
+  padding: 5px 10px;
+  outline: none;
+}
+
+.contact-btn {
+  background: #EC6F57;
+  box-shadow: 0px 4px 7px -1px rgba(0, 0, 0, 0.11), 0px 2px 4px -1px rgba(0, 0, 0, 0.07);
+  border-radius: 8px;
+  text-align: center;
+  letter-spacing: -0.034em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  border: 0;
+  padding: 5.5px 30px;
+}
+.contact-btn:hover{
+  background: #ff3838;
+}
+
+/* CONTACT-END */
+
+

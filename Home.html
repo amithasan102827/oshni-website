@@ -1,0 +1,946 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- bootstrap-css-cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+    <!-- bootstrap-icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+
+    <!-- google-font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600;700&family=Poppins:wght@400;500;600&family=Work+Sans:wght@100;200;300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- slick-slider -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"
+        integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css"
+        integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+
+
+
+
+    <link rel="stylesheet" href="Home.css">
+    <link rel="stylesheet" href="navbar.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav class=" navbar bg-lignt sticky-top navbar-expand-md">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img class="w-100 img-fluid" src="./images/logo 1.png" alt=""
+                    srcset=""></a>
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                <i class="fa-sharp fa-solid fa-bars-staggered"></i>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+
+                    <a class="navbar-brand" href="#"><img class="w-100 img-fluid" src="./images/logo 1.png" alt=""
+                            srcset=""></a>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+
+                <div class="offcanvas-body ">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 ">
+
+                        <li class="nav-item dropdown position-static ">
+                            <a style="cursor: pointer;" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Service
+                            </a>
+                            <ul class="dropdown-menu py-5 rounded-0 ">
+                                <div
+                                    class="row row-cols-1 row-cols-lg-3 row-cols-sm-2 row-cols-md-2 mx-auto g-5 dropdown-row">
+
+                                    <div class="col">
+                                        <a class="text-decoration-none" href="">
+                                            <div
+                                                class="card navbar-card rounded-4 border-0 d-flex justify-content-center align-items-center">
+                                                <div class="card-body  navbar-card-body d-flex justify-content-center align-items-center " ">
+                                                    <img class=" ps-3" src="./images/building-add.svg" alt=""
+                                                    srcset="">
+                                                    <div class="ms-3 text-start ">
+                                                        <div class="mt-md-3">
+                                                            <h6 class="p-0 m-0 mt-2">Smart Wholesaler</h6>
+                                                            <p class="pt-1">
+                                                                Custom Software Development.Frontend
+                                                                Development.Ecommerce
+                                                                Development.
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col">
+                                        <a class="text-decoration-none" href="">
+                                            <div
+                                                class="card navbar-card rounded-4 border-0 d-flex justify-content-center align-items-center">
+                                                <div class="card-body  navbar-card-body d-flex justify-content-center align-items-center " ">
+                                                    <img class=" ps-3" src="./images/building-add.svg" alt=""
+                                                    srcset="">
+                                                    <div class="ms-3 text-start ">
+                                                        <div class="mt-md-3">
+                                                            <h6 class="p-0 m-0 mt-2">Smart Wholesaler</h6>
+                                                            <p class="pt-1">
+                                                                Custom Software Development.Frontend
+                                                                Development.Ecommerce
+                                                                Development.
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col">
+                                        <a class="text-decoration-none" href="">
+                                            <div
+                                                class="card navbar-card rounded-4 border-0 d-flex justify-content-center align-items-center">
+                                                <div
+                                                    class="card-body  navbar-card-body d-flex justify-content-center align-items-center ">
+                                                    <img class=" ps-3" src="./images/building-add.svg" alt="" srcset="">
+                                                    <div class="ms-3 text-start ">
+                                                        <div class="mt-md-3">
+                                                            <h6 class="p-0 m-0 mt-2">Smart Wholesaler</h6>
+                                                            <p class="pt-1">
+                                                                Custom Software Development.Frontend
+                                                                Development.Ecommerce
+                                                                Development.
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col">
+                                        <a class="text-decoration-none" href="">
+                                            <div
+                                                class="card navbar-card rounded-4 border-0 d-flex justify-content-center align-items-center">
+                                                <div class="card-body  navbar-card-body d-flex justify-content-center align-items-center " ">
+                                                    <img class=" ps-3" src="./images/building-add.svg" alt=""
+                                                    srcset="">
+                                                    <div class="ms-3 text-start ">
+                                                        <div class="mt-md-3">
+                                                            <h6 class="p-0 m-0 mt-2">Smart Wholesaler</h6>
+                                                            <p class="pt-1">
+                                                                Custom Software Development.Frontend
+                                                                Development.Ecommerce
+                                                                Development.
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col">
+                                        <a class="text-decoration-none" href="">
+                                            <div
+                                                class="card navbar-card rounded-4 border-0 d-flex justify-content-center align-items-center">
+                                                <div class="card-body  navbar-card-body d-flex justify-content-center align-items-center " ">
+                                                    <img class=" ps-3" src="./images/building-add.svg" alt=""
+                                                    srcset="">
+                                                    <div class="ms-3 text-start ">
+                                                        <div class="mt-md-3">
+                                                            <h6 class="p-0 m-0 mt-2">Smart Wholesaler</h6>
+                                                            <p class="pt-1">
+                                                                Custom Software Development.Frontend
+                                                                Development.Ecommerce
+                                                                Development.
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+
+
+                            </ul>
+                        </li>
+
+
+                        <li class="nav-item dropdown position-static">
+                            <a style="cursor: pointer;" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Products
+                            </a>
+                            <ul class="dropdown-menu py-5 rounded-0">
+                                <div
+                                    class="row row-cols-1 row-cols-lg-3 row-cols-sm-2 row-cols-md-2 mx-auto g-5 dropdown-row">
+
+                                    <div class="col">
+                                        <a class="text-decoration-none" href="">
+                                            <div
+                                                class="card navbar-card rounded-4 border-0 d-flex justify-content-center align-items-center">
+                                                <div class="card-body  navbar-card-body d-flex justify-content-center align-items-center " ">
+                                                    <img class=" ps-3" src="./images/building-add.svg" alt=""
+                                                    srcset="">
+                                                    <div class="ms-3 text-start ">
+                                                        <div class="mt-md-3">
+                                                            <h6 class="p-0 m-0 mt-2">Smart Wholesaler</h6>
+                                                            <p class="pt-1">
+                                                                Custom Software Development.Frontend
+                                                                Development.Ecommerce
+                                                                Development.
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col">
+                                        <a class="text-decoration-none" href="">
+                                            <div
+                                                class="card navbar-card rounded-4 border-0 d-flex justify-content-center align-items-center">
+                                                <div class="card-body  navbar-card-body d-flex justify-content-center align-items-center " ">
+                                                    <img class=" ps-3" src="./images/building-add.svg" alt=""
+                                                    srcset="">
+                                                    <div class="ms-3 text-start ">
+                                                        <div class="mt-md-3">
+                                                            <h6 class="p-0 m-0 mt-2">Smart Wholesaler</h6>
+                                                            <p class="pt-1">
+                                                                Custom Software Development.Frontend
+                                                                Development.Ecommerce
+                                                                Development.
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col">
+                                        <a class="text-decoration-none" href="">
+                                            <div
+                                                class="card navbar-card rounded-4 border-0 d-flex justify-content-center align-items-center">
+                                                <div class="card-body  navbar-card-body d-flex justify-content-center align-items-center " ">
+                                                    <img class=" ps-3" src="./images/building-add.svg" alt=""
+                                                    srcset="">
+                                                    <div class="ms-3 text-start ">
+                                                        <div class="mt-md-3">
+                                                            <h6 class="p-0 m-0 mt-2">Smart Wholesaler</h6>
+                                                            <p class="pt-1">
+                                                                Custom Software Development.Frontend
+                                                                Development.Ecommerce
+                                                                Development.
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col">
+                                        <a class="text-decoration-none" href="">
+                                            <div
+                                                class="card navbar-card rounded-4 border-0 d-flex justify-content-center align-items-center">
+                                                <div class="card-body  navbar-card-body d-flex justify-content-center align-items-center " ">
+                                                    <img class=" ps-3" src="./images/building-add.svg" alt=""
+                                                    srcset="">
+                                                    <div class="ms-3 text-start ">
+                                                        <div class="mt-md-3">
+                                                            <h6 class="p-0 m-0 mt-2">Smart Wholesaler</h6>
+                                                            <p class="pt-1">
+                                                                Custom Software Development.Frontend
+                                                                Development.Ecommerce
+                                                                Development.
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col">
+                                        <a class="text-decoration-none" href="">
+                                            <div
+                                                class="card navbar-card rounded-4 border-0 d-flex justify-content-center align-items-center">
+                                                <div class="card-body  navbar-card-body d-flex justify-content-center align-items-center " ">
+                                                    <img class=" ps-3" src="./images/building-add.svg" alt=""
+                                                    srcset="">
+                                                    <div class="ms-3 text-start ">
+                                                        <div class="mt-md-3">
+                                                            <h6 class="p-0 m-0 mt-2">Smart Wholesaler</h6>
+                                                            <p class="pt-1">
+                                                                Custom Software Development.Frontend
+                                                                Development.Ecommerce
+                                                                Development.
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+
+                            </ul>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link " href="./ProductDetails.html">
+                                Team
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="ServiceDetails.html">
+                                Contact
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- BANNER -->
+    <section>
+        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+
+                <div class="carousel-item position-relative active" data-bs-interval="2000">
+                    <img src="./images/banner-background-1.jpg" class="d-block w-100 " alt="...">
+                    <div class="carousel-caption d-none d-lg-block  position-absolute w-25 mx-auto">
+                        <h2 class="mt-5 caption text-start"> <span>A </span> <br> <span
+                                class="fw-bold">Commitment</span> <br> to <span class="fw-bold">Better</span></h2>
+                    </div>
+                </div>
+                <div class="carousel-item position-relative" data-bs-interval="2000">
+                    <img src="./images/banner-background-1.jpg" class="d-block w-100 " alt="...">
+                    <div class="carousel-caption d-none d-lg-block  position-absolute w-25 mx-auto">
+                        <h2 class="mt-5 caption text-start"> <span>A </span> <br> <span
+                                class="fw-bold">Commitment</span> <br> to <span class="fw-bold">Better</span></h2>
+                    </div>
+                </div>
+                <div class="carousel-item position-relative" data-bs-interval="2000">
+                    <img src="./images/banner-background-1.jpg" class="d-block w-100 " alt="...">
+                    <div class="carousel-caption d-none d-lg-block  position-absolute w-25 mx-auto">
+                        <h2 class="mt-5 caption text-start"> <span>A </span> <br> <span
+                                class="fw-bold">Commitment</span> <br> to <span class="fw-bold">Better</span></h2>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <!-- OUR-FEATURES -->
+    <section class="my-5 py-md-4">
+        <div class="container d-flex justify-content-center align-items-center">
+            <div class="features-container row row-cols-2 row-cols-lg-5 row-cols-md-5 rounded-5">
+                <div class="col single-feature  d-flex flex-column justify-content-center align-items-center">
+                    <i class="bi bi-bar-chart-line fa-2xl p-1 rounded"></i>
+                    <p>SMART WHOLESALER</p>
+                </div>
+                <div class="col single-feature d-flex flex-column justify-content-center align-items-center">
+                    <i class="bi bi-bar-chart-line fa-2xl p-1 rounded"></i>
+                    <p>OSHNI-ERP</p>
+                </div>
+                <div class=" col single-feature d-flex flex-column justify-content-center align-items-center">
+                    <i class="bi bi-bar-chart-line fa-2xl p-1 rounded"></i>
+                    <p>SSO</p>
+                </div>
+                <div class="col single-feature d-flex flex-column justify-content-center align-items-center">
+                    <i class="bi bi-bar-chart-line fa-2xl p-1 rounded"></i>
+                    <p>OSHNI-HR</p>
+                </div>
+                <div class="col single-feature d-flex flex-column justify-content-center align-items-center">
+                    <i class="bi bi-bar-chart-line fa-2xl p-1 rounded"></i>
+                    <p>OSHNI-ACCOUNTS</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ourFeatureText -->
+    <section class="my-5">
+        <div class="container ">
+            <div class="text-center ourFeatureText mx-auto">
+                <p>We provide a time-worthy business solution to every type of business. Find out your one and level up
+                    your success stairs.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section class="my-5">
+        <div class="container">
+            <h2 class="text-center services-title">Services</h2>
+            <div class="row row-cols-1 row-cols-lg-4 g-5  row-cols-md-3 justify-content-center align-items-center ">
+
+                <div class="col d-flex flex-column justify-content-center align-items-center service-features p-0 ">
+                    <div class="service-img">
+                        <img src="./images/web.png" alt="" srcset="">
+                    </div>
+                    <p class="mt-3">Web Development</p>
+                </div>
+
+                <div class=" col d-flex flex-column justify-content-center align-items-center service-features p-0">
+                    <div class="service-img">
+                        <img src="./images/web.png" alt="" srcset="">
+                    </div>
+                    <p class="mt-3">App Development</p>
+                </div>
+                <div class=" col d-flex flex-column justify-content-center align-items-center service-features p-0">
+                    <div class="service-img">
+                        <img src="./images/web.png" alt="" srcset="">
+                    </div>
+                    <p class="mt-3">Web Design</p>
+                </div>
+                <div class="col d-flex flex-column justify-content-center align-items-center service-features p-0">
+                    <div class="service-img">
+                        <img src="./images/web.png" alt="" srcset="">
+                    </div>
+                    <p class="mt-3">SEO</p>
+                </div>
+                <div class=" col d-flex flex-column justify-content-center align-items-center service-features p-0">
+                    <div class="service-img">
+                        <img src="./images/web.png" alt="" srcset="">
+                    </div>
+                    <p class="mt-3">E-Commerce</p>
+                </div>
+                <div class=" col d-flex flex-column justify-content-center align-items-center service-features p-0">
+                    <div class="service-img">
+                        <img src="./images/web.png" alt="" srcset="">
+                    </div>
+                    <p class="mt-3">Digital Marketing</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ABOUT US -->
+    <section class="my-5 py-md-5">
+        <div class="container">
+            <h2 class="text-center about-us-title my-5">ABOUT US</h2>
+
+            <div class="about-text">
+                <p>We've skilled in web development, android app, and various digital marketing tools.Oshni Software
+                    currently exists the brainchild of some fresh youth brain. Those young minds not only think
+                    regarding doing enormous but all of us also able to think creatively and also able to chase any
+                    complexity in addition to bug effectively</p>
+            </div>
+
+            <!-- slick-slider -->
+            <!-- <div class="slider d-flex justify-content-center align-items-center my-5">
+
+                <div class="responsive mx-auto about-slider">
+
+                    <div class="d-flex justify-content-center">
+                        <div class="d-flex justify-content-center align-items-center flex-column">
+                            <img class=" about-slider-img img-fluid  rounded-circle p-3" src="./images/Ellipse 4.png"
+                                alt="" srcset="">
+                            <h6 class="mt-1 about-slider-name">Christian Buehner</h6>
+                            <h6 class="about-slider-degignation">CEO</h6>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-center">
+                        <div class="d-flex justify-content-center align-items-center flex-column">
+                            <img class=" about-slider-img img-fluid  rounded-circle p-3" src="./images/Ellipse 4.png"
+                                alt="" srcset="">
+                            <h6 class="mt-1 about-slider-name">Christian Buehner</h6>
+                            <h6 class="about-slider-degignation">CEO</h6>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-center">
+                        <div class="d-flex justify-content-center align-items-center flex-column">
+                            <img class=" about-slider-img img-fluid  rounded-circle p-3" src="./images/Ellipse 4.png"
+                                alt="" srcset="">
+                            <h6 class="mt-1 about-slider-name">Christian Buehner</h6>
+                            <h6 class="about-slider-degignation">CEO</h6>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-center">
+                        <div class="d-flex justify-content-center align-items-center flex-column">
+                            <img class=" about-slider-img img-fluid  rounded-circle p-3" src="./images/Ellipse 4.png"
+                                alt="" srcset="">
+                            <h6 class="mt-1 about-slider-name">Christian Buehner</h6>
+                            <h6 class="about-slider-degignation">CEO</h6>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-center">
+                        <div class="d-flex justify-content-center align-items-center flex-column">
+                            <img class=" about-slider-img img-fluid  rounded-circle p-3" src="./images/Ellipse 4.png"
+                                alt="" srcset="">
+                            <h6 class="mt-1 about-slider-name">Christian Buehner</h6>
+                            <h6 class="about-slider-degignation">CEO</h6>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div> -->
+
+
+            <!-- swiper-slider -->
+            <div class="about-slider-container mx-auto py-5">
+                <div class="swiper about-us my-md-4">
+                    <div class="swiper-wrapper about-slide">
+
+                        <div class="swiper-slide d-flex justify-content-center align-items-center flex-column">
+                            <img class=" about-slider-img img-fluid  rounded-circle " src="./images/Ellipse 4.png"
+                                alt="" srcset="">
+                            <h6 class="mt-1 about-slider-name">Christian Buehner</h6>
+                            <h6 class="about-slider-degignation">CEO</h6>
+                        </div>
+                        <div class="swiper-slide d-flex justify-content-center align-items-center flex-column">
+                            <img class=" about-slider-img img-fluid  rounded-circle " src="./images/about.jpg" alt=""
+                                srcset="">
+                            <h6 class="mt-1 about-slider-name">Christian Buehner</h6>
+                            <h6 class="about-slider-degignation">CEO</h6>
+                        </div>
+                        <div class="swiper-slide d-flex justify-content-center align-items-center flex-column">
+                            <img class=" about-slider-img img-fluid  rounded-circle " src="./images/Ellipse 4.png"
+                                alt="" srcset="">
+                            <h6 class="mt-1 about-slider-name">Christian Buehner</h6>
+                            <h6 class="about-slider-degignation">CEO</h6>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+
+
+        </div>
+
+        </div>
+    </section>
+
+    <!-- Our Clients -->
+    <section class="my-5 py-md-5">
+        <div class="container">
+            <h2 class="our-client-title">Our Clients</h2>
+
+            <div class="our-client-slider-container mx-auto py-5">
+                <div class="swiper our-client my-md-4">
+                    <div class="swiper-wrapper">
+
+                        <div class="swiper-slide d-flex justify-content-center align-items-center flex-column">
+                            <img class=" img-fluid   " src="./images/our-cllient-1.png"
+                                alt="" srcset="">
+                        </div>
+                        <div class="swiper-slide d-flex justify-content-center align-items-center flex-column">
+                            <img class="  img-fluid  " src="./images/our-cllient-2.png"
+                                alt="" srcset="">
+                        </div>
+                        <div class="swiper-slide d-flex justify-content-center align-items-center flex-column">
+                            <img class="  img-fluid   " src="./images/our-cllient-1.png"
+                                alt="" srcset="">
+                        </div>
+                    </div>
+
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Client Says about us -->
+    <section class="my-5">
+        <div class="container">
+            <h1 class="client-say-title py-5">Client Says about us</h1>
+            <div class="swiper  client-review">
+                <div class="swiper-wrapper  mx-auto d-flex justify-content-center align-items-center">
+
+                    <div class="swiper-slide">
+                        <div class="client-review-card row mx-auto">
+                            <div class="col-md-6 col-12 p-0 d-flex  justify-content-center">
+                                <img class="py-md-0 py-2 " src="./images/review.png" alt="">
+                            </div>
+                            <div class="col-md-6 col-12 d-flex justify-content-center align-items-center">
+                                <div class="text-md-start text-center ">
+                                    <p>Ante facilisi ipsum sit eget dolor maecenas sed. Fringilla laoreet tincidunt nec
+                                        nulla ullamcorper. Convallis viverra risus, facilisis erat gravida justo, urna
+                                        ultrices.</p>
+                                    <h6>Kyle Merwin</h6>
+                                    <h6 class="p-0">CO-owner at LionEnergy</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="client-review-card row mx-auto">
+                            <div class="col-md-6 col-12 client-review-image p-0 d-flex  justify-content-center">
+                                <img class="py-md-0 py-2 " src="./images/review.png" alt="">
+                            </div>
+                            <div class="col-md-6 col-12 d-flex justify-content-center align-items-center">
+                                <div class="text-md-start text-center ">
+                                    <p>Ante facilisi ipsum sit eget dolor maecenas sed. Fringilla laoreet tincidunt nec
+                                        nulla ullamcorper. Convallis viverra risus, facilisis erat gravida justo, urna
+                                        ultrices. </p>
+                                    <h6>Kyle Merwin</h6>
+                                    <h6 class="p-0">CO-owner at LionEnergy</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="client-review-card row mx-auto">
+                            <div class="col-md-6 col-12 client-review-image p-0 d-flex  justify-content-center">
+                                <img class="py-md-0 py-2 " src="./images/review.png" alt="">
+                            </div>
+                            <div
+                                class="col-md-6 col-12 client-review-image d-flex justify-content-center align-items-center">
+                                <div class="text-md-start text-center ">
+                                    <p>Ante facilisi ipsum sit eget dolor maecenas sed. Fringilla laoreet tincidunt nec
+                                        nulla ullamcorper. Convallis viverra risus, facilisis erat gravida justo, urna
+                                        ultrices. </p>
+                                    <h6>Kyle Merwin</h6>
+                                    <h6 class="p-0">CO-owner at LionEnergy</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="client-review-card row mx-auto">
+                            <div class="col-md-6 col-12 client-review-image p-0 d-flex  justify-content-center">
+                                <img class="py-md-0 py-2 " src="./images/about.jpg" alt="">
+                            </div>
+                            <div class="col-md-6 col-12 d-flex justify-content-center align-items-center">
+                                <div class="text-md-start text-center ">
+                                    <p>Ante facilisi ipsum sit eget dolor maecenas sed. Fringilla laoreet tincidunt nec
+                                        nulla ullamcorper. Convallis viverra risus, facilisis erat gravida justo, urna
+                                        ultrices. </p>
+                                    <h6>Kyle Merwin</h6>
+                                    <h6 class="p-0">CO-owner at LionEnergy</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact For Your Solution -->
+    <section class="contact-section">
+        <div class="container">
+            <div class="row justify-content-center align-items-center ">
+                <div class="col-md-6 text-md-start order-md-0 order-1">
+                    <h2 class="contact-title mb-3">Contact For Your Solution</h2>
+                    <p class="contact-text ">Your company may not be in the software business, but eventually, a
+                        software company will be in
+                        your business.</p>
+
+                    <form action="">
+                        <input class="contact-field" type="text" placeholder="Type Here">
+
+                        <button class="contact-btn ms-2">send</button>
+                    </form>
+                </div>
+                <div class="col-md-6 order-md-1 order-0">
+                    <img class="float-md-end img-fluid" src="./images/contact-Image.png" alt="" srcset="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <section class="my-5 pb-md-5 border-top">
+        <div class="container pt-5">
+            <div class="row row-cols-1 row-cols-md-5 g-4 justify-content-center align-items-start">
+                <div class="col d-flex justify-content-md-center justify-content-start">
+                    <div>
+                        <h5 class="footer-title mb-4">Soft UI Design System</h5>
+                        <h6 class="footer-title-2">Social</h6>
+                        <div>
+                            <a href="" class="text-decoration-none text-dark">
+                                <i class="fa-brands fa-square-facebook fa-lg me-2"></i>
+                            </a>
+                            <a href="" class="text-decoration-none text-dark">
+                                <i class="fa-brands fa-twitter fa-lg me-2"></i>
+                            </a>
+                            <!-- <i class="fa-brands fa-github"></i> -->
+                            <a href="" class="text-decoration-none text-dark">
+                                <i class="fa-brands fa-linkedin fa-lg me-2"></i>
+                            </a>
+                            <a href="" class="text-decoration-none text-dark">
+                                <i class="fa-brands fa-square-pinterest fa-lg me-2"></i>
+                            </a>
+                            <a href="" class="text-decoration-none text-dark">
+                                <i class="fa-brands fa-square-instagram fa-lg me-2"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col d-flex justify-content-md-center justify-content-start">
+                    <div>
+                        <h5 class="footer-title">Company</h5>
+                        <div>
+                            <a class="text-decoration-none footer-item d-block" href="">Service</a>
+                            <a class="text-decoration-none footer-item d-block" href="">Product</a>
+                            <a class="text-decoration-none footer-item d-block" href="">Team</a>
+                            <a class="text-decoration-none footer-item d-block" href="">Contact</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col d-flex justify-content-md-center justify-content-start">
+                    <div>
+                        <h5 class="footer-title">Resources</h5>
+                        <div>
+                            <a class="text-decoration-none footer-item d-block" href="">PDF</a>
+                            <a class="text-decoration-none footer-item d-block" href="">Bits & Snippets</a>
+                            <a class="text-decoration-none footer-item d-block" href="">Affiliate Program</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col d-flex justify-content-md-center justify-content-start">
+                    <div>
+                        <h5 class="footer-title">Help & Support</h5>
+                        <div>
+                            <a class="text-decoration-none footer-item d-block" href="">Contact Us</a>
+                            <a class="text-decoration-none footer-item d-block" href="">Knowledge Center</a>
+                            <a class="text-decoration-none footer-item d-block" href="">Custom Development</a>
+                            <a class="text-decoration-none footer-item d-block" href="">Sponsorships</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col d-flex justify-content-md-center justify-content-start">
+                    <div>
+                        <h5 class="footer-title">Legal</h5>
+                        <div>
+                            <a class="text-decoration-none footer-item d-block" href="">Terms & Conditions</a>
+                            <a class="text-decoration-none footer-item d-block" href="">Privacy Policy</a>
+                            <a class="text-decoration-none footer-item d-block" href="">Licenses (EULA)</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+        integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+
+    <!-- bootstrap JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+
+
+    <!-- navbar-dropdown -->
+    <script>
+        $(document).ready(function () {
+            $(".dropdown").hover(
+                function () {
+                    $(this).find(".dropdown-menu").stop(true, true).delay(200).fadeIn();
+                },
+                function () {
+                    $(this)
+                        .find(".dropdown-menu")
+                        .stop(true, true)
+                        .delay(200)
+                        .fadeOut();
+                }
+            );
+
+            $(".dropdown-menu").hover(
+                function () {
+                    $(this).stop(true, true);
+                },
+                function () {
+                    $(this).stop(true, true).delay(200).fadeOut();
+                }
+            );
+        });
+    </script>
+
+    <!-- slick-slider -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+        integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        $('.responsive').slick({
+            arrows: false,
+            dots: false,
+            infinite: true,
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            autoplay: true,
+            speed: 6000, autoplay: true, autoplaySpeed: 0, cssEase: 'linear',
+            pauseOnHover: false,
+            // autoplaySpeed: 2500,
+            prevArrow: '<i class="fa-solid fa-chevron-left slide-arrow prev-arrow"></i>',
+            nextArrow: '<i class="fa-solid fa-chevron-right slide-arrow next-arrow"></i>',
+            responsive: [{
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 1,
+                    infinite: true,
+                    dots: false
+                }
+            },
+            {
+                breakpoint: 600,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1
+                }
+            }
+            ]
+        });
+    </script> -->
+
+
+
+
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <!--about-us Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".about-us", {
+            // slidesPerView: 3,
+            // spaceBetween: 30,
+            centeredSlides: true,
+            watchSlidesProgress: true,
+            // freeMode: true,
+            keyboard: {
+                enabled: true,
+            },
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+            speed: 2000,
+            // mousewheel: true,
+            loop: true,
+            breakpoints: {
+                640: {
+                    slidesPerView: 1,
+                    spaceBetween: 20,
+                },
+                768: {
+                    slidesPerView: 3,
+                    spaceBetween: 0,
+                },
+                1024: {
+                    slidesPerView: 3,
+                    slidesPerGroup: 1,
+                    spaceBetween: 0,
+                },
+            },
+        });
+    </script>
+
+
+    <!--our-client Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".our-client", {
+            // slidesPerView: 3,
+            // spaceBetween: 30,
+            centeredSlides: true,
+            watchSlidesProgress: true,
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+            speed: 2000,
+            // mousewheel: true,
+            loop: true,
+            // freeMode: true,
+            breakpoints: {
+                640: {
+                    slidesPerView: 1,
+                    spaceBetween: 20,
+                },
+                768: {
+                    slidesPerView: 3,
+                    spaceBetween: 0,
+                },
+                1024: {
+                    slidesPerView: 5,
+                    slidesPerGroup: 1,
+                    spaceBetween: 30,
+                },
+            },
+        });
+    </script>
+
+    <!--our-client-review Initialize Swiper -->
+    <script>
+        var swiper = new Swiper('.client-review', {
+            slidesPerView: 1,
+            autoplay: {
+                delay: 2000,
+                disableOnInteraction: false,
+            },
+            speed: 2000,
+            loop: true,
+            direction: "vertical",
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+                // renderBullet: function (index, className) {
+                //     return '<span class="' + className + '">' + (index + 1) + "</span>";
+                // },
+
+            },
+        });
+    </script>
+
+
+
+
+
+</body>
+
+</html>
